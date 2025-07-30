@@ -1,2 +1,2 @@
 # slang_squares
-Gen Z crossword puzzle web app with urban slang
+illenial and Gen Z crossword puzzle web app with urban slang
