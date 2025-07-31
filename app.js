@@ -773,7 +773,7 @@ class CrosswordApp {
     }
 
     shareResults() {
-        const text = `I completed the "${this.themes[this.currentTheme].theme}" crossword in ${document.getElementById('timer').textContent}! 🎉\n\nPlay GenZ Crosswords - Urban Dictionary & Slang Puzzles`;
+        const text = `I completed the "${this.themes[this.currentTheme].theme}" crossword in ${document.getElementById('timer').textContent}! 🎉\n\nPlay Slang Squares Crosswords - Urban Dictionary & Slang Puzzles`;
         
         if (navigator.share) {
             navigator.share({
