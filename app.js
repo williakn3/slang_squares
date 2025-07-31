@@ -1,4 +1,4 @@
-// GenZ Crosswords - Main Application Logic
+// Slang Squares - Main Application Logic
 
 class CrosswordApp {
     constructor() {
@@ -773,7 +773,7 @@ class CrosswordApp {
     }
 
     shareResults() {
-        const text = `I completed the "${this.themes[this.currentTheme].theme}" crossword in ${document.getElementById('timer').textContent}! 🎉\n\nPlay Slang Squares Crosswords - Urban Dictionary & Slang Puzzles`;
+        const text = `I completed the "${this.themes[this.currentTheme].theme}" crossword in ${document.getElementById('timer').textContent}! 🎉\n\nPlay Slang Squares Crosswords - Urban Dictionary & Slang  Crossword Puzzles`;
         
         if (navigator.share) {
             navigator.share({
