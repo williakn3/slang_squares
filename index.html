@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenZ Crosswords - Urban Dictionary & Slang Puzzles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <h1>GenZ Crosswords</h1>
+                        <span class="tagline">Urban Dictionary & Slang Puzzles</span>
+                    </div>
+                    <div class="header-controls">
+                        <button id="darkModeToggle" class="btn btn--outline theme-toggle">
+                            <span class="theme-icon">🌙</span>
+                        </button>
+                        <button id="settingsBtn" class="btn btn--outline">
+                            <span>⚙️</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                <!-- Theme Selector -->
+                <div class="theme-selector-section">
+                    <div class="theme-info">
+                        <h2 id="currentTheme">Urban Dictionary Essentials</h2>
+                        <p id="themeDescription">Basic slang terms every millennial and Gen Z should know</p>
+                    </div>
+                    <div class="theme-controls">
+                        <label for="themeSelect" class="form-label">Choose Your Daily Theme:</label>
+                        <select id="themeSelect" class="form-control theme-select">
+                            <option value="Day 1">Day 1 - Urban Dictionary Essentials</option>
+                            <option value="Day 2">Day 2 - TikTok Culture</option>
+                            <option value="Day 3">Day 3 - Social Media Slang</option>
+                            <option value="Day 4">Day 4 - Gen Z Gaming</option>
+                            <option value="Day 5">Day 5 - Millennial Nostalgia</option>
+                            <option value="Day 6">Day 6 - Dating & Relationships</option>
+                            <option value="Day 7">Day 7 - Pop Culture Icons</option>
+                            <option value="Day 8">Day 8 - Aesthetic Vibes</option>
+                            <option value="Day 9">Day 9 - Food & Drink Trends</option>
+                            <option value="Day 10">Day 10 - Streaming & Entertainment</option>
+                            <option value="Day 11">Day 11 - Work & Career</option>
+                            <option value="Day 12">Day 12 - Mental Health & Wellness</option>
+                            <option value="Day 13">Day 13 - Fashion & Style</option>
+                            <option value="Day 14">Day 14 - Travel & Lifestyle</option>
+                            <option value="Day 15">Day 15 - Technology & Apps</option>
+                            <option value="Day 16">Day 16 - Meme Culture</option>
+                            <option value="Day 17">Day 17 - Music & Artists</option>
+                            <option value="Day 18">Day 18 - Fitness & Health</option>
+                            <option value="Day 19">Day 19 - Sustainability & Environment</option>
+                            <option value="Day 20">Day 20 - DIY & Creativity</option>
+                            <option value="Day 21">Day 21 - Crypto & Finance</option>
+                            <option value="Day 22">Day 22 - Luxury & Lifestyle</option>
+                            <option value="Day 23">Day 23 - Reality TV & Drama</option>
+                            <option value="Day 24">Day 24 - Sports & Competition</option>
+                            <option value="Day 25">Day 25 - Beauty & Skincare</option>
+                            <option value="Day 26">Day 26 - Pets & Animals</option>
+                            <option value="Day 27">Day 27 - Education & Learning</option>
+                            <option value="Day 28">Day 28 - Home & Living</option>
+                            <option value="Day 29">Day 29 - Seasonal & Holidays</option>
+                            <option value="Day 30">Day 30 - Future & Technology</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Game Area -->
+                <div class="game-area">
+                    <!-- Crossword Grid -->
+                    <div class="crossword-section">
+                        <div class="game-header">
+                            <div class="game-stats">
+                                <div class="stat">
+                                    <span class="stat-label">Time:</span>
+                                    <span id="timer" class="stat-value">00:00</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-label">Progress:</span>
+                                    <span id="progress" class="stat-value">0%</span>
+                                </div>
+                            </div>
+                            <div class="game-controls">
+                                <button id="checkBtn" class="btn btn--primary">Check Answers</button>
+                                <button id="hintBtn" class="btn btn--secondary">Get Hint</button>
+                                <button id="clearBtn" class="btn btn--outline">Clear All</button>
+                            </div>
+                        </div>
+                        <div class="crossword-grid" id="crosswordGrid">
+                            <!-- Grid will be generated by JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- Clues Panel -->
+                    <div class="clues-section">
+                        <div class="clues-container">
+                            <div class="clues-across">
+                                <h3>Across</h3>
+                                <div id="acrossClues" class="clues-list">
+                                    <!-- Clues will be populated by JavaScript -->
+                                </div>
+                            </div>
+                            <div class="clues-down">
+                                <h3>Down</h3>
+                                <div id="downClues" class="clues-list">
+                                    <!-- Clues will be populated by JavaScript -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sample Words Display -->
+                <div class="sample-words-section">
+                    <h3>Sample Words for This Theme:</h3>
+                    <div id="sampleWords" class="sample-words">
+                        <!-- Sample words will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Completion Modal -->
+        <div id="completionModal" class="modal hidden">
+            <div class="modal-content">
+                <h2>🎉 Congratulations!</h2>
+                <p>You've completed the crossword puzzle!</p>
+                <div class="completion-stats">
+                    <div class="stat">
+                        <span class="stat-label">Time:</span>
+                        <span id="finalTime" class="stat-value"></span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Theme:</span>
+                        <span id="finalTheme" class="stat-value"></span>
+                    </div>
+                </div>
+                <div class="modal-actions">
+                    <button id="shareBtn" class="btn btn--primary">Share Results</button>
+                    <button id="newPuzzleBtn" class="btn btn--secondary">Try Another</button>
+                    <button id="closeModalBtn" class="btn btn--outline">Close</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Settings Modal -->
+        <div id="settingsModal" class="modal hidden">
+            <div class="modal-content">
+                <h2>Settings</h2>
+                <div class="settings-options">
+                    <div class="setting-item">
+                        <label for="timerToggle">Show Timer:</label>
+                        <input type="checkbox" id="timerToggle" checked>
+                    </div>
+                    <div class="setting-item">
+                        <label for="hintsToggle">Allow Hints:</label>
+                        <input type="checkbox" id="hintsToggle" checked>
+                    </div>
+                    <div class="setting-item">
+                        <label for="soundToggle">Sound Effects:</label>
+                        <input type="checkbox" id="soundToggle" checked>
+                    </div>
+                    <div class="setting-item">
+                        <label for="autoCheck">Auto-check on completion:</label>
+                        <input type="checkbox" id="autoCheck" checked>
+                    </div>
+                </div>
+                <div class="modal-actions">
+                    <button id="closeSettingsBtn" class="btn btn--primary">Close</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Help Modal -->
+        <div id="helpModal" class="modal hidden">
+            <div class="modal-content">
+                <h2>How to Play</h2>
+                <div class="help-content">
+                    <ol>
+                        <li>Select a theme from the dropdown menu</li>
+                        <li>Click on a square in the grid to start typing</li>
+                        <li>Use arrow keys or click to navigate between squares</li>
+                        <li>Read the clues to help solve the puzzle</li>
+                        <li>Use "Check Answers" to verify your solutions</li>
+                        <li>Get hints if you're stuck!</li>
+                    </ol>
+                </div>
+                <div class="modal-actions">
+                    <button id="closeHelpBtn" class="btn btn--primary">Got it!</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Action Button -->
+        <div class="fab-container">
+            <button id="helpBtn" class="fab" title="Help">
+                <span>?</span>
+            </button>
+        </div>
+
+        <!-- Confetti Container -->
+        <div id="confetti" class="confetti hidden"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

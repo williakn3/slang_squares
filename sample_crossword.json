@@ -1,0 +1,71 @@
+{
+  "theme": "Urban Dictionary Essentials",
+  "size": {
+    "rows": 15,
+    "cols": 15
+  },
+  "across": {
+    "1": {
+      "clue": "Charisma or charm, short for charisma",
+      "answer": "RIZZ",
+      "row": 0,
+      "col": 0
+    },
+    "5": {
+      "clue": "Extremely good or delicious",
+      "answer": "BUSSIN",
+      "row": 0,
+      "col": 5
+    },
+    "11": {
+      "clue": "To do something exceptionally well",
+      "answer": "SLAY",
+      "row": 2,
+      "col": 0
+    },
+    "14": {
+      "clue": "To support someone obsessively",
+      "answer": "STAN",
+      "row": 3,
+      "col": 0
+    },
+    "15": {
+      "clue": "Someone who does too much for someone they like",
+      "answer": "SIMP",
+      "row": 4,
+      "col": 0
+    }
+  },
+  "down": {
+    "1": {
+      "clue": "The atmosphere or feeling",
+      "answer": "VIBES",
+      "row": 0,
+      "col": 0
+    },
+    "2": {
+      "clue": "Excellent or amazing",
+      "answer": "FIRE",
+      "row": 0,
+      "col": 1
+    },
+    "3": {
+      "clue": "Embarrassing or awkward",
+      "answer": "CRINGE",
+      "row": 0,
+      "col": 2
+    },
+    "4": {
+      "clue": "Legendary or memorable",
+      "answer": "ICONIC",
+      "row": 0,
+      "col": 3
+    },
+    "6": {
+      "clue": "To show off",
+      "answer": "FLEX",
+      "row": 0,
+      "col": 6
+    }
+  }
+}

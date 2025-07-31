@@ -1,0 +1,482 @@
+{
+  "Day 1": {
+    "theme": "Urban Dictionary Essentials",
+    "description": "Basic slang terms every millennial and Gen Z should know",
+    "sample_words": [
+      "RIZZ",
+      "BUSSIN",
+      "SLAY",
+      "STAN",
+      "SIMP",
+      "VIBES",
+      "FIRE",
+      "CRINGE",
+      "ICONIC",
+      "FLEX"
+    ]
+  },
+  "Day 2": {
+    "theme": "TikTok Culture",
+    "description": "Terms and trends from the TikTok universe",
+    "sample_words": [
+      "SKIBIDI",
+      "GYATT",
+      "SIGMA",
+      "OHIO",
+      "RIZZLER",
+      "BRAIN",
+      "ROT",
+      "DEMURE",
+      "MINDFUL",
+      "EDGING"
+    ]
+  },
+  "Day 3": {
+    "theme": "Social Media Slang",
+    "description": "Instagram, Twitter, and social media terminology",
+    "sample_words": [
+      "SNATCHED",
+      "PERIODT",
+      "NOFLOP",
+      "BLESSED",
+      "MOOD",
+      "SAVAGE",
+      "LOWKEY",
+      "HIGHKEY",
+      "FACTS",
+      "LMAO"
+    ]
+  },
+  "Day 4": {
+    "theme": "Gen Z Gaming",
+    "description": "Gaming culture and esports terminology",
+    "sample_words": [
+      "NOOB",
+      "CLUTCH",
+      "TOXIC",
+      "CARRY",
+      "THROW",
+      "SMASH",
+      "RAGEQUIT",
+      "NERF",
+      "BUFF",
+      "RESPAWN"
+    ]
+  },
+  "Day 5": {
+    "theme": "Millennial Nostalgia",
+    "description": "Things that defined the millennial experience",
+    "sample_words": [
+      "FOMO",
+      "YOLO",
+      "SELFIE",
+      "HASHTAG",
+      "VIRAL",
+      "MEME",
+      "PODCAST",
+      "NETFLIX",
+      "UBER",
+      "WIFI"
+    ]
+  },
+  "Day 6": {
+    "theme": "Dating & Relationships",
+    "description": "Modern dating terminology and relationship slang",
+    "sample_words": [
+      "GHOSTING",
+      "BREADCRUMBING",
+      "CATFISH",
+      "SWIPE",
+      "MATCH",
+      "SLIDE",
+      "THIRST",
+      "TRAP",
+      "SOFT",
+      "LAUNCH"
+    ]
+  },
+  "Day 7": {
+    "theme": "Pop Culture Icons",
+    "description": "Celebrities and cultural figures beloved by millennials and Gen Z",
+    "sample_words": [
+      "TAYLOR",
+      "SWIFT",
+      "ARIANA",
+      "GRANDE",
+      "BILLIE",
+      "EILISH",
+      "DOJA",
+      "CAT",
+      "LIZZO",
+      "HARRY"
+    ]
+  },
+  "Day 8": {
+    "theme": "Aesthetic Vibes",
+    "description": "Visual and style trends popular online",
+    "sample_words": [
+      "VSCO",
+      "SOFT",
+      "GIRL",
+      "DARK",
+      "ACADEMIA",
+      "COTTAGECORE",
+      "BADDIE",
+      "CLEAN",
+      "GIRL",
+      "GRUNGE"
+    ]
+  },
+  "Day 9": {
+    "theme": "Food & Drink Trends",
+    "description": "Popular food trends and slang",
+    "sample_words": [
+      "BOBA",
+      "MATCHA",
+      "AVOCADO",
+      "TOAST",
+      "KOMBUCHA",
+      "OATMILK",
+      "SMOOTHIE",
+      "BOWL",
+      "A\u00c7A\u00cd",
+      "DETOX"
+    ]
+  },
+  "Day 10": {
+    "theme": "Streaming & Entertainment",
+    "description": "Modern entertainment and streaming culture",
+    "sample_words": [
+      "NETFLIX",
+      "CHILL",
+      "BINGE",
+      "WATCH",
+      "SPOTIFY",
+      "WRAPPED",
+      "TIKTOK",
+      "ALGO",
+      "FYPAGE",
+      "VIRAL"
+    ]
+  },
+  "Day 11": {
+    "theme": "Work & Career",
+    "description": "Modern work culture and career terminology",
+    "sample_words": [
+      "REMOTE",
+      "WORK",
+      "SIDE",
+      "HUSTLE",
+      "GIG",
+      "ECONOMY",
+      "LINKEDIN",
+      "NETWORK",
+      "INTERN",
+      "GRIND"
+    ]
+  },
+  "Day 12": {
+    "theme": "Mental Health & Wellness",
+    "description": "Mental health awareness and wellness trends",
+    "sample_words": [
+      "SELF",
+      "CARE",
+      "THERAPY",
+      "BOUNDARIES",
+      "MINDFUL",
+      "MEDITATION",
+      "ANXIETY",
+      "TRAUMA",
+      "HEALING",
+      "JOURNEY"
+    ]
+  },
+  "Day 13": {
+    "theme": "Fashion & Style",
+    "description": "Current fashion trends and style terminology",
+    "sample_words": [
+      "THRIFT",
+      "VINTAGE",
+      "SUSTAINABLE",
+      "FAST",
+      "FASHION",
+      "OUTFIT",
+      "COORD",
+      "STREETWEAR",
+      "DESIGNER",
+      "DUPE"
+    ]
+  },
+  "Day 14": {
+    "theme": "Travel & Lifestyle",
+    "description": "Travel trends and lifestyle choices",
+    "sample_words": [
+      "WANDERLUST",
+      "STAYCATION",
+      "ROAD",
+      "TRIP",
+      "AIRBNB",
+      "DIGITAL",
+      "NOMAD",
+      "BUCKET",
+      "LIST",
+      "EXPLORE"
+    ]
+  },
+  "Day 15": {
+    "theme": "Technology & Apps",
+    "description": "Tech terminology and app culture",
+    "sample_words": [
+      "IPHONE",
+      "ANDROID",
+      "APP",
+      "STORE",
+      "CLOUD",
+      "STORAGE",
+      "WIFI",
+      "BLUETOOTH",
+      "CHARGING",
+      "CABLE"
+    ]
+  },
+  "Day 16": {
+    "theme": "Meme Culture",
+    "description": "Internet memes and viral content",
+    "sample_words": [
+      "MEME",
+      "VIRAL",
+      "TWEET",
+      "THREAD",
+      "RETWEET",
+      "QUOTE",
+      "REACT",
+      "EMOJI",
+      "GIF",
+      "STICKER"
+    ]
+  },
+  "Day 17": {
+    "theme": "Music & Artists",
+    "description": "Current music trends and popular artists",
+    "sample_words": [
+      "SPOTIFY",
+      "APPLE",
+      "MUSIC",
+      "PLAYLIST",
+      "STREAM",
+      "ALBUM",
+      "SINGLE",
+      "CONCERT",
+      "FESTIVAL",
+      "VINYL"
+    ]
+  },
+  "Day 18": {
+    "theme": "Fitness & Health",
+    "description": "Fitness trends and health consciousness",
+    "sample_words": [
+      "YOGA",
+      "PILATES",
+      "HIIT",
+      "PROTEIN",
+      "SHAKE",
+      "GYM",
+      "WORKOUT",
+      "CARDIO",
+      "GAINS",
+      "RECOVERY"
+    ]
+  },
+  "Day 19": {
+    "theme": "Sustainability & Environment",
+    "description": "Environmental awareness and eco-friendly trends",
+    "sample_words": [
+      "CLIMATE",
+      "CHANGE",
+      "RECYCLE",
+      "UPCYCLE",
+      "ZERO",
+      "WASTE",
+      "PLANT",
+      "BASED",
+      "VEGAN",
+      "ECO"
+    ]
+  },
+  "Day 20": {
+    "theme": "DIY & Creativity",
+    "description": "DIY culture and creative pursuits",
+    "sample_words": [
+      "DIY",
+      "CRAFT",
+      "UPCYCLE",
+      "HANDMADE",
+      "ARTISAN",
+      "MAKER",
+      "CREATE",
+      "DESIGN",
+      "PINTEREST",
+      "TUTORIAL"
+    ]
+  },
+  "Day 21": {
+    "theme": "Crypto & Finance",
+    "description": "Modern financial terminology and crypto culture",
+    "sample_words": [
+      "CRYPTO",
+      "BITCOIN",
+      "ETHEREUM",
+      "NFT",
+      "BLOCKCHAIN",
+      "INVEST",
+      "STOCK",
+      "PORTFOLIO",
+      "BUDGET",
+      "SAVINGS"
+    ]
+  },
+  "Day 22": {
+    "theme": "Luxury & Lifestyle",
+    "description": "Luxury trends and aspirational lifestyle",
+    "sample_words": [
+      "LUXURY",
+      "DESIGNER",
+      "BRAND",
+      "PREMIUM",
+      "EXCLUSIVE",
+      "LIMITED",
+      "EDITION",
+      "COLLAB",
+      "DROP",
+      "HYPE"
+    ]
+  },
+  "Day 23": {
+    "theme": "Reality TV & Drama",
+    "description": "Reality TV shows and drama terminology",
+    "sample_words": [
+      "REALITY",
+      "DRAMA",
+      "TEA",
+      "SPILL",
+      "SHADE",
+      "THROW",
+      "ICONIC",
+      "MOMENT",
+      "VILLAIN",
+      "EDIT"
+    ]
+  },
+  "Day 24": {
+    "theme": "Sports & Competition",
+    "description": "Sports culture and competitive terminology",
+    "sample_words": [
+      "GOAT",
+      "CLUTCH",
+      "MVMP",
+      "PLAYOFF",
+      "CHAMPION",
+      "ROOKIE",
+      "DRAFT",
+      "TRADE",
+      "COACH",
+      "TEAM"
+    ]
+  },
+  "Day 25": {
+    "theme": "Beauty & Skincare",
+    "description": "Beauty trends and skincare terminology",
+    "sample_words": [
+      "SKINCARE",
+      "ROUTINE",
+      "GLOW",
+      "DEWY",
+      "MATTE",
+      "SERUM",
+      "RETINOL",
+      "VITAMIN",
+      "MASK",
+      "TREATMENT"
+    ]
+  },
+  "Day 26": {
+    "theme": "Pets & Animals",
+    "description": "Pet culture and animal-related trends",
+    "sample_words": [
+      "DOGGO",
+      "PUPPER",
+      "KITTY",
+      "RESCUE",
+      "ADOPT",
+      "FOSTER",
+      "VET",
+      "GROOMING",
+      "TRAINING",
+      "TREAT"
+    ]
+  },
+  "Day 27": {
+    "theme": "Education & Learning",
+    "description": "Modern education and learning trends",
+    "sample_words": [
+      "ONLINE",
+      "COURSE",
+      "TUTORIAL",
+      "SKILL",
+      "CERTIFY",
+      "DEGREE",
+      "STUDY",
+      "LEARN",
+      "MASTER",
+      "CLASS"
+    ]
+  },
+  "Day 28": {
+    "theme": "Home & Living",
+    "description": "Home decoration and living space trends",
+    "sample_words": [
+      "DECOR",
+      "MINIMAL",
+      "COZY",
+      "HYGGE",
+      "PLANT",
+      "PARENT",
+      "STUDIO",
+      "APARTMENT",
+      "ROOMMATE",
+      "RENT"
+    ]
+  },
+  "Day 29": {
+    "theme": "Seasonal & Holidays",
+    "description": "Seasonal trends and holiday culture",
+    "sample_words": [
+      "PUMPKIN",
+      "SPICE",
+      "SUMMER",
+      "VIBES",
+      "WINTER",
+      "COZY",
+      "SPRING",
+      "CLEAN",
+      "FALL",
+      "AESTHETIC"
+    ]
+  },
+  "Day 30": {
+    "theme": "Future & Technology",
+    "description": "Future trends and emerging technology",
+    "sample_words": [
+      "AI",
+      "ROBOT",
+      "DRONE",
+      "VIRTUAL",
+      "REALITY",
+      "SMART",
+      "HOME",
+      "ELECTRIC",
+      "VEHICLE",
+      "FUTURE"
+    ]
+  }
+}
