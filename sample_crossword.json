@@ -4,6 +4,23 @@
     "rows": 15,
     "cols": 15
   },
+  "grid": [
+    ["R","I","Z","Z","#","B","U","S","S","I","N","#","S","L","A"],
+    ["#","C","O","N","I","C","#","T","A","N","#","V","I","B","E"],
+    ["S","L","A","Y","#","R","I","N","G","E","#","#","F","I","R"],
+    ["T","A","N","#","#","#","#","#","#","#","#","#","#","#","E"],
+    ["S","I","M","P","#","#","#","#","#","#","#","#","#","#","#"],
+    ["#","#","#","#","#","F","L","E","X","#","#","R","I","Z","Z"],
+    ["#","#","#","#","#","I","#","#","#","#","#","#","#","#","#"],
+    ["#","V","I","B","E","S","#","#","#","#","#","#","#","#","#"],
+    ["#","#","#","#","#","#","#","#","S","T","A","N","#","#","#"],
+    ["#","#","#","#","#","#","#","#","L","#","#","#","#","#","#"],
+    ["#","#","#","#","#","#","#","#","A","#","#","#","#","#","#"],
+    ["#","#","#","#","#","#","#","#","Y","#","#","#","C","R","I"],
+    ["#","#","#","#","#","#","#","#","#","#","#","#","#","#","N"],
+    ["#","#","#","#","#","#","#","#","#","#","#","#","#","#","G"],
+    ["#","#","#","#","#","#","#","#","#","#","#","#","#","#","E"]
+  ],
   "across": {
     "1": {
       "clue": "Charisma or charm, short for charisma",
@@ -11,61 +28,181 @@
       "row": 0,
       "col": 0
     },
-    "5": {
+    "6": {
       "clue": "Extremely good or delicious",
       "answer": "BUSSIN",
       "row": 0,
       "col": 5
     },
-    "11": {
+    "12": {
+      "clue": "To do something exceptionally well",
+      "answer": "SLAY",
+      "row": 0,
+      "col": 12
+    },
+    "15": {
+      "clue": "Legendary or memorable",
+      "answer": "ICONIC",
+      "row": 1,
+      "col": 1
+    },
+    "21": {
+      "clue": "To support someone obsessively",
+      "answer": "STAN",
+      "row": 1,
+      "col": 7
+    },
+    "25": {
+      "clue": "The atmosphere or feeling",
+      "answer": "VIBE",
+      "row": 1,
+      "col": 11
+    },
+    "29": {
       "clue": "To do something exceptionally well",
       "answer": "SLAY",
       "row": 2,
       "col": 0
     },
-    "14": {
+    "32": {
+      "clue": "Embarrassing or awkward",
+      "answer": "CRINGE",
+      "row": 2,
+      "col": 5
+    },
+    "38": {
+      "clue": "Excellent or amazing",
+      "answer": "FIRE",
+      "row": 2,
+      "col": 12
+    },
+    "42": {
       "clue": "To support someone obsessively",
       "answer": "STAN",
       "row": 3,
       "col": 0
     },
-    "15": {
+    "46": {
       "clue": "Someone who does too much for someone they like",
       "answer": "SIMP",
       "row": 4,
       "col": 0
+    },
+    "50": {
+      "clue": "To show off",
+      "answer": "FLEX",
+      "row": 5,
+      "col": 5
+    },
+    "54": {
+      "clue": "Charisma or charm, short for charisma",
+      "answer": "RIZZ",
+      "row": 5,
+      "col": 11
+    },
+    "58": {
+      "clue": "The atmosphere or feeling (plural)",
+      "answer": "VIBES",
+      "row": 7,
+      "col": 1
+    },
+    "63": {
+      "clue": "To support someone obsessively",
+      "answer": "STAN",
+      "row": 8,
+      "col": 8
+    },
+    "67": {
+      "clue": "To do something exceptionally well",
+      "answer": "SLAY",
+      "row": 8,
+      "col": 8
+    },
+    "71": {
+      "clue": "Embarrassing or awkward",
+      "answer": "CRINGE",
+      "row": 11,
+      "col": 12
     }
   },
   "down": {
     "1": {
-      "clue": "The atmosphere or feeling",
-      "answer": "VIBES",
+      "clue": "Charisma or charm, short for charisma",
+      "answer": "RIZZ",
       "row": 0,
       "col": 0
     },
     "2": {
-      "clue": "Excellent or amazing",
-      "answer": "FIRE",
+      "clue": "Legendary or memorable",
+      "answer": "ICONIC",
       "row": 0,
       "col": 1
     },
     "3": {
-      "clue": "Embarrassing or awkward",
-      "answer": "CRINGE",
+      "clue": "The atmosphere or feeling (plural)",
+      "answer": "VIBES",
       "row": 0,
-      "col": 2
+      "col": 11
     },
     "4": {
-      "clue": "Legendary or memorable",
-      "answer": "ICONIC",
+      "clue": "To do something exceptionally well",
+      "answer": "SLAY",
       "row": 0,
-      "col": 3
+      "col": 12
     },
-    "6": {
+    "5": {
+      "clue": "Excellent or amazing + Embarrassing",
+      "answer": "FIRE",
+      "row": 0,
+      "col": 14
+    },
+    "7": {
+      "clue": "Extremely good or delicious",
+      "answer": "BUSSIN",
+      "row": 0,
+      "col": 5
+    },
+    "10": {
+      "clue": "To support someone obsessively",
+      "answer": "STAN",
+      "row": 3,
+      "col": 0
+    },
+    "14": {
+      "clue": "Someone who does too much for someone they like",
+      "answer": "SIMP",
+      "row": 4,
+      "col": 0
+    },
+    "18": {
       "clue": "To show off",
       "answer": "FLEX",
-      "row": 0,
-      "col": 6
+      "row": 5,
+      "col": 5
+    },
+    "22": {
+      "clue": "Charisma or charm",
+      "answer": "RIZZ",
+      "row": 5,
+      "col": 11
+    },
+    "26": {
+      "clue": "The atmosphere or feeling (plural)",
+      "answer": "VIBES",
+      "row": 7,
+      "col": 1
+    },
+    "30": {
+      "clue": "To do something exceptionally well",
+      "answer": "SLAY",
+      "row": 8,
+      "col": 8
+    },
+    "34": {
+      "clue": "Embarrassing or awkward",
+      "answer": "CRINGE",
+      "row": 11,
+      "col": 12
     }
   }
 }
